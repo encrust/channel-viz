@@ -14,7 +14,7 @@
 
 	var defaultKey		= '6Lch4j2xl1gosDGzepPw4byS1U5HrVWjkCdAI8jQSWKcco4A', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [2127051856], // Comma separated array of Xively Feed ID numbers
-		applicationName	= 'Graphing thingy', // Replaces Xively logo in the header
+		applicationName	= 'Aquarium Monitor', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
 		dataColor		= 'a02020', // CSS HEX value of color to represent data (omit leading #)
@@ -391,7 +391,7 @@
 
 	if(applicationName != '') {
 		$('h1').html(applicationName).css('color', 'white');
-		document.title = applicationName + ' - Powered by Xively';
+		document.title = applicationName ;
 	}
 
 	if(dataColor == '') {
