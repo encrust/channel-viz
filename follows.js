@@ -12,8 +12,8 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '6Lch4j2xl1gosDGzepPw4byS1U5HrVWjkCdAI8jQSWKcco4A', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [2127051856], // Comma separated array of Xively Feed ID numbers
+	var defaultKey		= 'MuQBm4wfsTEiyZhNUjMSjUz1WDKkf4ZP8K4Y010srgWfvC5A', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [113984400], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Aquarium Monitor', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
